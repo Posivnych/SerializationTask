@@ -1,0 +1,15 @@
+﻿<Window x:Class="FolderSerialization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FolderSerialization"
+        mc:Ignorable="d"
+        Title="Folder Serialization" Height="310" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListBox Name="displayedFolders" HorizontalAlignment="Left" Height="150" Margin="50,20,0,0" VerticalAlignment="Top" Width="300" SelectionMode="Multiple" />
+        <Button Content="Serialize..." HorizontalAlignment="Left" Margin="50,242,0,0" VerticalAlignment="Top" Width="75" Click="Serialize_Button_Click"/>
+        <Button Content="Display..." HorizontalAlignment="Left" Margin="159,242,0,0" VerticalAlignment="Top" Width="75" Click="Display_Button_Click"/>
+        <Button Content="Deserialize..." HorizontalAlignment="Left" Margin="275,242,0,0" VerticalAlignment="Top" Width="75" Click="Deserialize_Button_Click"/>
+    </Grid>
+</Window>
